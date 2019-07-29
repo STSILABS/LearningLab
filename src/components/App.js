@@ -4,6 +4,7 @@ import AboutUs from './AboutUs/AboutUs.js';
 import TrafficCardArchive from './CardArchive/TrafficCardArchive.js';
 import WeatherCardArchive from './CardArchive/WeatherCardArchive.js';
 import FullScreen from './FullScreen/FullScreen.js';
+import Message from './Message/Message.js';
 import {
   BrowserRouter as Router,
   Route
@@ -21,6 +22,7 @@ export default class App extends Component {
                 <Route path="/WeatherCard" component={WeatherCardArchive}/>
                 <Route path="/TrafficCard" component={TrafficCardArchive}/>
                 <Route path="/FullScreen" component={FullScreen}/>
+                <Route path="/Message" component={Message}/>
             </div>
             </Router>
         );

@@ -3,6 +3,7 @@ import Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
 import WeatherData from './WeatherCard/WeatherData.js';
 import TrafficCard from './TrafficCard/TrafficCard.js';
+import Message from './Message/Message.js';
 import CardContainer from './CardContainer/CardContainer.js';
 
 import './App.css';
@@ -10,6 +11,7 @@ import './App.css';
 export default class home extends Component {
     render(){
         let cards = [
+            <Message />,
             <WeatherData
                 type='weather'
                 zipcode='22209'

@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    background: url('./images/blurred-background-5.jpg');
+    background: #900;
     background-size: cover;
 }
 

@@ -3,10 +3,12 @@ import FullScreenHeader from './../FullScreenHeader/FullScreenHeader.js';
 import WeatherData from './../WeatherCard/WeatherData.js';
 import TrafficCard from './../TrafficCard/TrafficCard.js';
 import CardContainer from './../CardContainer/CardContainer.js';
+import Message from '../Message/Message.js';
 
 export default class home extends Component {
     render(){
         let cards = [
+            <Message />,
             <WeatherData
                 type='weather'
                 zipcode='22209'
